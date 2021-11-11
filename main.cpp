@@ -7,11 +7,12 @@ int main() {
    if (n>=2) {
       cout << x1 << endl;
       cout << x2 << endl;
-      for (i=2; i<n; i++){
+      for (i=2; i<n; i++){   
+         cout << x3 << endl;
          x1 = x2;
          x2 = x3;
          x3 = x1+x2;
-         cout << x3 << endl;
+         
       }
    }else{
       cout << "errore" << endl;
